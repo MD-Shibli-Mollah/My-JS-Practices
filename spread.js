@@ -18,3 +18,6 @@ console.log(copMyCrs);
 //more ***notes: Numbers of args can be sent using ... (3 dots) and position the by their Array Pos
 const toArr = (...args) => args[0] + args[1] + args[2] + args[3] + args[4] + args[5];
 console.log(toArr(1,2,3,4,5,6));
+//res operator
+const mArr = (...args) => args;
+console.log(mArr('Code','js','test',4,5));
